@@ -1,0 +1,8 @@
+.venv
+todo_history.txt
+todo.json
+__pycache__
+data
+test.py
+web/__pycache__
+web/patrick.png
