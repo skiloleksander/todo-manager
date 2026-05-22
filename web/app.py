@@ -8,6 +8,7 @@ from view import render_app
 from core import load_todo
 
 def main():
+    Path("data").mkdir(exist_ok=True)
     load_todo()
     render_app()
 
